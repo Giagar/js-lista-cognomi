@@ -24,7 +24,7 @@ var userSurnameIndex = lowerCaseSurnamesList.indexOf(surname) + 1;
 var displayedList = '';
 for (var l = 0; l < lowerCaseSurnamesList.length; l++) {
     if(lowerCaseSurnamesList[l] === surname) {
-        displayedList += '<li class="user">' + lowerCaseSurnamesList[l] + ', ' + userSurnameIndex + '</li>'
+        displayedList += '<li class="user text-effect">' + lowerCaseSurnamesList[l] + ', ' + userSurnameIndex + '</li>'
     } else {
         displayedList += '<li>' + lowerCaseSurnamesList[l] + '</li>'
     }
