@@ -23,7 +23,7 @@ if (checkSurname) {
     let result = newSurnamesList.map((el, index) => {
         
         return el === surname.toLowerCase() ?
-            `<li class="user text-effect">${el}, ${index + 1}</li>` :
+            `<li class="user text-effect">${index + 1}) ${el}</li>` :
             `<li>${el}</li>`;
 
     })
